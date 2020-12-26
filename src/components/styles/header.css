@@ -1,0 +1,19 @@
+.outer_div{
+    position: relative;
+    width: 99%;
+    border: 5px solid rgb(15, 175, 140);
+}
+
+.inner_div{
+    position: relative;
+    margin:0 auto;
+    border: 5px solid red;
+    width: 70%;
+
+
+}
+
+.name_header{
+   
+    color: aquamarine;
+}
