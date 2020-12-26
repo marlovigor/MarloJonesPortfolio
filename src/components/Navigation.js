@@ -1,27 +1,26 @@
 import React, { Component } from 'react'
-import Nav from 'react-bootstrap/Nav';
+import { Button } from '@material-ui/core';
+import MenuIcon from '@material-ui/icons/Menu';
+
 
 
 export default class Navigation extends Component {
     render() {
         return (
             <div>
-                <Nav className="justify-content-end" activeKey="/home">
-                    <Nav.Item>
-                        <Nav.Link href="/home">Active</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link eventKey="link-1">Link</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link eventKey="link-2">Link</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link eventKey="disabled" disabled>
-                            Disabled
-      </Nav.Link>
-                    </Nav.Item>
-                </Nav>
+                <Button style={{
+                    borderRadius: "0px 0px 5px 5px",
+                    backgroundColor: "grey",
+                    padding: "3px",
+                    width: '60px',
+                    height:"30px",
+                    opacity: '0.4.4'
+
+                }}><MenuIcon style={{
+                    color: 'white',
+                    fontSize: '18px'
+
+                }} color="primary" >Hello World</MenuIcon></Button>
 
             </div>
         )
