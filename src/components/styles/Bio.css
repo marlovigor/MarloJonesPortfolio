@@ -1,0 +1,33 @@
+.bio_div{
+    background: linear-gradient(to bottom, rgba(55, 59, 75, 0.788), rgba(43, 7, 34, 0.815)), url("/home/marlo/reactportfoio/src/components/Assets/image4k.jpg") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    margin:0 auto;
+    margin-top:20px;
+    height: 390px;
+    /* border: 5px solid red; */
+    width: 100%;
+    padding: 5px;
+}
+.bio_Aboutme{
+    top:20px;
+    border-radius: 15px;
+    position: relative;
+    margin:0 auto;
+    padding: 10px;
+    color: aliceblue;
+    border: 1px solid rgb(228, 228, 236);
+    width: 220px;
+}
+.bio{
+    position: relative;
+    margin:0 auto;
+    /* left:25%; */
+    top:70px;
+     color: azure;
+    font-size: 20px;
+    width:88%;
+    text-align:center;
+    text-justify:inter-word;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

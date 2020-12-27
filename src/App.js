@@ -1,32 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import Navigation from './components/Navigation';
 import Header from './components/Header';
-import { Button } from '@material-ui/core';
-import MenuIcon from '@material-ui/icons/Menu';
+import Bio from './components/Bio'
+
 
 function App() {
 
-  
+
 
 
 
 
   return (
     <div className="App">
-      <Button style={{
-        borderRadius: "0px 0px 5px 5px",
-        backgroundColor: "grey",
-        padding: "5px",
-        width:'100px',
-        opacity: '0.4.4'
-        
-    }}><MenuIcon style={{
-      color:'white',
-      opacity: '10'
-      
-  }}color="primary" >Hello World</MenuIcon></Button>
-    
+
+      <Navigation />
       <Header />
+      <Bio />
 
     </div>
   );
