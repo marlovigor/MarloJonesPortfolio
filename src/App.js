@@ -22,6 +22,7 @@ function App() {
         
     }}><MenuIcon style={{
       color:'white',
+      opacity: '10'
       
   }}color="primary" >Hello World</MenuIcon></Button>
     
